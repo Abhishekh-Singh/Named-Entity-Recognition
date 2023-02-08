@@ -5,7 +5,7 @@ Task:
 
 Take text data, perform NER and Topic extraction, then store these entities and topics. Entities and topics are considered related if they appear in the same document. We would like to use this graph to determine the relations between topics and entities. You should write a sql query that can return the 100 pairs of entities which are most closely related, and the 100 pairs of topics that are most closely related. You can decide the precise measure of relatedness you use.
 
-#### Download Dataset
+### Download Dataset
 A corpus of one million news articles can be found at: 
 https://research.signal-ai.com/newsir16/signal-dataset.html
 
